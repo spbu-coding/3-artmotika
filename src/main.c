@@ -96,7 +96,7 @@ void solve_as_double(){
 
 int main() {
     solve_as_float();
-    printf("//////////////////////////////////////////////\n");
+    printf("\n//////////////////////////////////////////////\n");
     solve_as_double();
     return 0;
 }
