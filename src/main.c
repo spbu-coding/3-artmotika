@@ -47,12 +47,12 @@ void solve_as_float(){
         second_x2 = solves.x2;
         difference_points = sqrt((first_x1 - second_x1)*(first_x1 - second_x1) + (first_x2 - second_x2)*(first_x2 -
                                                                                                          second_x2));
-        printf("In floats (delta = %.11f):\n", delta);
+        printf("In floats (delta = %.16f):\n", delta);
         printf("x1: %.11f", first_x1); printf("\tx1 with delta: %.11f", second_x1);
         printf("\n");
         printf("x2: %.11f", first_x2); printf("\tx2 with delta: %.11f", second_x2);
         printf("\n");
-        printf("Distance: %.11f\n", difference_points);
+        printf("Distance: %.16f\n", difference_points);
         printf("\n");
 
         count ++;
@@ -86,7 +86,7 @@ void solve_as_double(){
         printf("\n");
         printf("x2: %.16lf", first_x2); printf("\tx2 with delta: %.16lf", second_x2);
         printf("\n");
-        printf("Distance: %.16lf\n", difference_points);
+        printf("Distance: %.20lf\n", difference_points);
         printf("\n");
 
         count ++;
